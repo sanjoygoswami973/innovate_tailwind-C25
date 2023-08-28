@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ==========================
+            font family start
+    =============================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ==========================
+            font family end
+    =============================== -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./js/script.js"></script>
+  </head>
+  <body class="body">
+    <!-- ==========================
+             navber start
+    =============================== -->
+    <nav class="py-8 absolute w-full left-0 top-0 z-10">
+      <div class="max-w-container mx-auto">
+        <div class="flex">
+          <div class="w-1/4">
+            <img src="images/Logo.png" alt="Logo" />
+          </div>
+          <div class="w-2/4 flex justify-center items-center">
+            <ul class="flex gap-x-50 font-dm font-medium text-white text-lg">
+              <li>
+                <a href="#">Home <i class="fa-solid fa-angle-down"></i></a>
+              </li>
+              <li><a href="#">Features</a></li>
+              <li>
+                <a href="#">Service <i class="fa-solid fa-angle-down"></i></a>
+              </li>
+              <li>
+                <a href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
+              </li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div
+            class="w-1/4 flex justify-end items-center font-dm font-medium text-lg gap-x-9"
+          >
+            <a class="text-white" href="#">Login</a>
+            <a class="py-5 px-12 bg-secondary rounded-md text-heading" href="#"
+              >Register</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- ==========================
+             navber end
+    =============================== -->
+    <!-- ==========================
+             banner start
+    =============================== -->
+    <section
+      style="background: url(./images/banner_bg.jpg)"
+      class="!bg-cover !bg-no-repeat !bg-center text-center pt-195 relative pb-24 md:pb-[440px] lg:pb-[558px]"
+    >
+      <h1
+        class="font-chivo font-bold text-4xl lg:leading-snug lg:text-56 text-white max-w-796 mx-auto mb-5"
+      >
+        Get your work done with Management Tool
+      </h1>
+      <p
+        class="font-dm font-normal text-lg text-white max-w-467 mx-auto sm:max-lg :bg-red-400 mt-5 mb-8"
+      >
+        The world's first project management platform that connects everything
+      </p>
+      <input
+        class="min-w-300 lg:min-w-480 py-5 px-6 rounded-lg"
+        type="email"
+        placeholder="Your business email"
+      />
+      <a
+        class="py-5 lg:py-4 px-7 bg-secondary rounded-md lg:-ml-36 inline-block min-w-300 lg:min-w-0 mt-2 sm:max-xl:mt-0 sm:max-lg:ml-2 text-heading"
+        href="#"
+        >Try for free</a
+      >
+      <img
+        class="absolute left-1/2 bottom-[-176px] -translate-x-1/2 hidden md:block"
+        src="images/banner_imgcut.png"
+        alt="banner_img"
+      />
+    </section>
+    <!-- ==========================
+             banner end
+    =============================== -->
+    <!-- ==========================
+             platform start
+    =============================== -->
+    <section class="mt-16 md:mt-326 mb-20 lg:mb-40">
+      <div class="max-w-container mx-auto">
+        <div class="md:flex text-center">
+          <div class="md:w-1/2 md:text-left">
+            <h2
+              class="font-chivo font-bold text-3xl md:text-4xl lg:text-46 md:max-w-504 text-heading lg:leading-snug mb-4 md:mb-0"
+            >
+              How simple is it to use our platform?
+            </h2>
+          </div>
+          <div class="md:w-1/2">
+            <p
+              class="font-dm font-normal text-base lg:text-lg text-paragraph md:max-w-530 lg:ml-auto md:text-start md:ml-5"
+            >
+              This Innovate Con guide explores the most popular platforms and
+              walks you through how to use them to grow your business.
+            </p>
+          </div>
+        </div>
+        <div class="md:flex justify-between mt-14 md:mt-116 md:gap-x-5">
+          <div class="text-center max-w-md md:max-w-xs mx-auto mb-8">
+            <img
+              class="mx-auto"
+              src="images/platform_img1.png"
+              alt="platform_img1"
+            />
+            <h3
+              class="font-chivo font-bold text-xl lg:text-2xl text-heading max-w-sm mx-auto md:max-w-xs my-4 md:my-26"
+            >
+              Login or sign up to be able use our platform
+            </h3>
+            <p
+              class="font-dm font-normal text-base lg:text-lg text-paragraph max-w-md md:max-w-300"
+            >
+              This quickstart shows you how to use Identity Platform to sign in
+              a user with an email and password.
+            </p>
+          </div>
+          <div class="text-center max-w-md md:max-w-xs mx-auto mb-8">
+            <img
+              class="mx-auto"
+              src="images/platform_img2.png"
+              alt="platform_img2"
+            />
+            <h3
+              class="font-chivo font-bold text-xl lg:text-2xl text-heading max-w-sm mx-auto md:max-w-xs my-4 md:my-26"
+            >
+              Connect your website with just a few click
+            </h3>
+            <p
+              class="font-dm font-normal text-base lg:text-lg text-paragraph max-w-md md:max-w-300"
+            >
+              Once your website is online, you can configure it, I will show you
+              how to put your website online
+            </p>
+          </div>
+          <div class="text-center max-w-md md:max-w-xs mx-auto">
+            <img
+              class="mx-auto"
+              src="images/platform_img3.png"
+              alt="platform_img3"
+            />
+            <h3
+              class="font-chivo font-bold text-xl lg:text-2xl text-heading max-w-sm mx-auto md:max-w-xs my-4 md:my-26"
+            >
+              Take some sales data that you want
+            </h3>
+            <p
+              class="font-dm font-normal text-base lg:text-lg text-paragraph max-w-md md:max-w-300"
+            >
+              Sell your data directly: The most straightforward method is to
+              sell your data directly to another
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==========================
+             platform end
+    =============================== -->
+    <!-- ==========================
+             features start
+    =============================== -->
+    <section class="mt-12 lg:mt-0">
+      <div class="max-w-container mx-auto">
+        <div
+          class="flex md:flex-col lg:flex-row justify-between lg:max-xl:items-center"
+        >
+          <div
+            class="hidden md:block lg:w-1/2 md:max-lg:order-1 md:max-lg:mt-24"
+          >
+            <img
+              class="mx-auto lg:mx-0"
+              src="images/features_img.png"
+              alt="features_img"
+            />
+          </div>
+          <div class="lg:w-45% xl:w-2/5 mx-auto lg:mx-0">
+            <h2
+              class="font-chivo font-bold text-3xl md:text-4xl lg:text-46 lg:leading-snug text-heading max-w-553 mx-auto text-center lg:text-left"
+            >
+              We provide features for your Business
+            </h2>
+            <div
+              class="sm:flex mt-10 sm:mt-16 flex-wrap gap-y-10 sm:max-lg:justify-around lg:justify-between"
+            >
+              <div
+                class="sm:w-2/5 lg:max-xl:w-45% text-center sm:text-left mb-5"
+              >
+                <img
+                  class="mx-auto sm:mx-0"
+                  src="images/features_icon1.png"
+                  alt="features_icon1"
+                />
+                <h3
+                  class="font-chivo font-bold lg:max-xl:text-21 text-22 text-heading my-3"
+                >
+                  Fast and Easy to use
+                </h3>
+                <p class="font-dm font-normal text-lg text-paragraph">
+                  Easily to convert API with just a few clicks
+                </p>
+              </div>
+              <div
+                class="sm:w-2/5 lg:max-xl:w-45% text-center sm:text-left mb-5"
+              >
+                <img
+                  class="mx-auto sm:mx-0"
+                  src="images/features_icon2.png"
+                  alt="features_icon2"
+                />
+                <h3
+                  class="font-chivo font-bold lg:max-xl:text-21 text-22 text-heading my-3"
+                >
+                  Safely Security
+                </h3>
+                <p class="font-dm font-normal text-lg text-paragraph">
+                  All customer data is encrypted
+                </p>
+              </div>
+              <div
+                class="sm:w-2/5 lg:max-xl:w-45% text-center sm:text-left mb-5"
+              >
+                <img
+                  class="mx-auto sm:mx-0"
+                  src="images/features_icon3.png"
+                  alt="features_icon3"
+                />
+                <h3
+                  class="font-chivo font-bold lg:max-xl:text-21 text-22 text-heading my-3"
+                >
+                  Get Organized
+                </h3>
+                <p class="font-dm font-normal text-lg text-paragraph">
+                  From lists to boards, organize work your way.
+                </p>
+              </div>
+              <div
+                class="sm:w-2/5 lg:max-xl:w-45% flex justify-center sm:justify-start mt-8 sm:mt-0 items-center"
+              >
+                <a
+                  class="font-dm font-medium text-lg text-white py-5 lg:max-xl:px-8 px-12 bg-primary rounded-md"
+                  href="#"
+                  >Get Started</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==========================
+             features end
+    =============================== -->
+    <!-- ==========================
+             service start
+    =============================== -->
+    <section class="my-24 lg:my-140">
+      <div class="max-w-container mx-auto">
+        <h4 class="font-dm font-normal text-lg text-third text-center">
+          Our Services
+        </h4>
+        <h2
+          class="font-chivo font-bold text-3xl md:text-4xl lg:text-46 text-heading text-center"
+        >
+          How It Works
+        </h2>
+        <div
+          class="flex flex-col sm:max-lg:flex-wrap sm:flex-row sm:max-lg:justify-between my-12 md:my-20 lg:gap-x-7 px-5 lg:px-0 gap-y-7 lg:gap-y-0"
+        >
+          <div
+            class="w-full sm:w-48% lg:w-1/4 border border-four rounded-3xl py-8 px-6 xl:p-9 hover:bg-primary shadow duration-500 group text-center sm:text-left"
+          >
+            <img
+              class="mx-auto sm:mx-0"
+              src="images/service_icon1.png"
+              alt="service_icon1"
+            />
+            <h4
+              class="font-chivo font-bold text-xl md:text-22 text-heading mt-26 group-hover:text-white duration-500"
+            >
+              Plan Product Roadmap
+            </h4>
+            <p
+              class="font-dm font-normal text-base text-paragraph mt-2 mb-26 w-auto xxl:w-64 group-hover:text-white duration-500"
+            >
+              A product roadmap is a shared source of truth that outlines the
+              vision, direction, priorities
+            </p>
+            <a
+              class="font-dm font-medium text-base text-primary flex items-center group-hover:text-white duration-500 flex justify-center sm:justify-start"
+              href="#"
+              >Read More
+              <i class="fa-solid fa-arrow-right-long text-xl ml-2"></i
+            ></a>
+          </div>
+
+          <div
+            class="w-full sm:w-48% lg:w-1/4 border border-four rounded-3xl py-8 px-6 xl:p-9 hover:bg-primary shadow duration-500 group text-center sm:text-left"
+          >
+            <img
+              class="mx-auto sm:mx-0"
+              src="images/service_icon2.png"
+              alt="service_icon2"
+            />
+            <h4
+              class="font-chivo font-bold text-xl md:text-22 text-heading mt-26 group-hover:text-white duration-500"
+            >
+              Assign Any Work
+            </h4>
+            <p
+              class="font-dm font-normal text-base text-paragraph mt-2 mb-26 w-auto xxl:w-64 group-hover:text-white duration-500"
+            >
+              Work assignment or job assignment is allocating work to work
+              centers or appropriate
+            </p>
+            <a
+              class="font-dm font-medium text-base text-primary flex items-center group-hover:text-white duration-500 flex justify-center sm:justify-start"
+              href="#"
+              >Read More
+              <i class="fa-solid fa-arrow-right-long text-xl ml-2"></i
+            ></a>
+          </div>
+
+          <div
+            class="w-full sm:w-48% lg:w-1/4 border border-four rounded-3xl py-8 px-6 xl:p-9 hover:bg-primary shadow duration-500 group text-center sm:text-left"
+          >
+            <img
+              class="mx-auto sm:mx-0"
+              src="images/service_icon3.png"
+              alt="service_icon3"
+            />
+            <h4
+              class="font-chivo font-bold text-xl md:text-22 text-heading mt-26 group-hover:text-white duration-500"
+            >
+              Monitor Work Progress
+            </h4>
+            <p
+              class="font-dm font-normal text-base text-paragraph mt-2 mb-26 w-auto xxl:w-64 group-hover:text-white duration-500"
+            >
+              Monitor Work ProgressKeeping records and monitoring activities
+              helps people see progress
+            </p>
+            <a
+              class="font-dm font-medium text-base text-primary flex items-center group-hover:text-white duration-500 flex justify-center sm:justify-start"
+              href="#"
+              >Read More
+              <i class="fa-solid fa-arrow-right-long text-xl ml-2"></i
+            ></a>
+          </div>
+
+          <div
+            class="w-full sm:w-48% lg:w-1/4 border border-four rounded-3xl py-8 px-6 xl:p-9 hover:bg-primary shadow duration-500 group text-center sm:text-left"
+          >
+            <img
+              class="mx-auto sm:mx-0"
+              src="images/service_icon4.png"
+              alt="service_icon4"
+            />
+            <h4
+              class="font-chivo font-bold text-xl md:text-22 text-heading mt-26 group-hover:text-white duration-500"
+            >
+              Pertect Intergration
+            </h4>
+            <p
+              class="font-dm font-normal text-base text-paragraph mt-2 mb-26 w-auto xxl:w-64 group-hover:text-white duration-500"
+            >
+              App integration, in a general sense, is the process of resources
+              or capabilities from one application
+            </p>
+            <a
+              class="font-dm font-medium text-base text-primary flex items-center group-hover:text-white duration-500 flex justify-center sm:justify-start"
+              href="#"
+              >Read More
+              <i class="fa-solid fa-arrow-right-long text-xl ml-2"></i
+            ></a>
+          </div>
+        </div>
+        <div class="text-center">
+          <a
+            class="font-dm font-medium text-lg text-primary py-5 px-12 border border-primary rounded-md inline-block hover:bg-primary hover:text-white duration-500"
+            href="#"
+            >View More</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- ==========================
+             service end
+    =============================== -->
+    <!-- ==========================
+             pricing start
+    =============================== -->
+    <section class="mb-20 lg:mb-40">
+      <div class="max-w-container mx-auto">
+        <h2
+          class="font-chivo font-bold text-32 md:text-4xl max-w-md lg:text-46 text-heading text-center md:leading-snug md:max-w-624 mx-auto"
+        >
+          Pricing Designed To Fit Your Business
+        </h2>
+        <div class="md:flex mt-16 lg:mt-140 justify-between">
+          <div
+            class="py-10 px-10 md:max-lg:py-8 md:px-5 lg:px-9 xl:px-14 rounded-20 border border-four shadow text-center group hover:bg-primary duration-500 md:w-32% max-w-md mx-auto md:mx-0"
+          >
+            <img
+              class="mx-auto"
+              src="images/pricing_logo1.png"
+              alt="pricing_logo1"
+            />
+            <h4
+              class="font-chivo font-bold text-2xl text-primary mt-8 mb-1 group-hover:text-secondary duration-500"
+            >
+              Personal
+            </h4>
+            <h3
+              class="font-chivo font-bold text-4xl lg:text-44 text-heading mb-4 group-hover:text-white duration-500"
+            >
+              $10/mth
+            </h3>
+            <p
+              class="font-dm font-medium text-lg md:max-lg:text-15 text-paragraph group-hover:text-white duration-500"
+            >
+              Annual pricing
+              <span class="text-primary group-hover:text-secondary duration-500"
+                >(save 20%)</span
+              >
+            </p>
+            <div class="my-10 w-64 mx-auto md:w-auto md:mx-0">
+              <div class="flex items-center mb-6">
+                <i
+                  class="fa-solid fa-check w-6 h-6 rounded-full bg-[#F4EBFF] text-center leading-6 text-primary"
+                ></i>
+                <p
+                  class="font-dm font-medium text-lg md:max-lg:text-15 md:max-lg:ml-1 text-paragraph ml-5 group-hover:text-white duration-500"
+                >
+                  Calendar View
+                </p>
+              </div>
+
+              <div class="flex items-center mb-6">
+                <i
+                  class="fa-solid fa-check w-6 h-6 rounded-full bg-[#F4EBFF] text-center leading-6 text-primary"
+                ></i>
+                <p
+                  class="font-dm font-medium text-lg md:max-lg:text-15 md:max-lg:ml-1 text-paragraph ml-5 group-hover:text-white duration-500"
+                >
+                  Custom Templates
+                </p>
+              </div>
+
+              <div class="flex items-center mb-6">
+                <i
+                  class="fa-solid fa-check w-6 h-6 rounded-full bg-[#F4EBFF] text-center leading-6 text-primary"
+                ></i>
+                <p
+                  class="font-dm font-medium text-lg md:max-lg:text-15 md:max-lg:ml-1 text-paragraph ml-5 group-hover:text-white duration-500"
+                >
+                  list view
+                </p>
+              </div>
+
+              <div class="flex items-center mb-6">
+                <i
+                  class="fa-solid fa-check w-6 h-6 rounded-full bg-[#F4EBFF] text-center leading-6 text-primary"
+                ></i>
+                <p
+                  class="font-dm font-medium text-lg md:max-lg:text-15 md:max-lg:ml-1 text-paragraph ml-5 group-hover:text-white duration-500"
+                >
+                  board view
+                </p>
+              </div>
+
+              <div class="flex items-center mb-6">
+                <i
+                  class="fa-solid fa-check w-6 h-6 rounded-full bg-[#F4EBFF] text-center leading-6 text-primary"
+                ></i>
+                <p
+                  class="font-dm font-medium text-lg md:max-lg:text-15 md:max-lg:ml-1 text-paragraph ml-5 group-hover:text-white duration-500"
+                >
+                  Assignees & Due Dates
+                </p>
+              </div>
+            </div>
+            <a
+              class="font-dm font-medium text-lg text-white bg-primary inline-block rounded-md py-5 px-10 lg:px-16 xl:px-105 group-hover:text-heading duration-500 group-hover:bg-secondary"
+              href="#"
+              >Purchase Now</a
+            >
+          </div>
+
+          <div
+            class="py-10 px-10 md:max-lg:py-8 md:px-5 lg:px-9 xl:px-14 rounded-20 border border-four shadow text-center group hover:bg-primary duration-500 md:w-32% max-w-md mx-auto md:mx-0 my-8 md:my-0"
+          >
+            <img
+              class="mx-auto"
+              src="images/pricing_logo2.png"
+              alt="pricing_logo2"
+            />
+            <h4
+              class="font-chivo font-bold text-2xl text-primary mt-8 mb-1 group-hover:text-secondary duration-500"
+            >
+              Team
+            </h4>
+            <h3
+              class="font-chivo font-bold text-4xl lg:text-44 text-heading mb-4 group-hover:text-white duration-500"
+            >
+              $25/mth
+            </h3>
+            <p
+              class="font-dm font-medium text-lg md:max-lg:text-15 text-paragraph group-hover:text-white duration-500"
+            >
+              Annual pricing
+              <span class="text-primary group-hover:text-secondary duration-500"
+                >(save 35%)</span
+              >
+            </p>
+            <div class="my-10 w-64 mx-auto md:w-auto md:mx-0">
+              <div class="flex items-center mb-6">
+                <i
+                  class="fa-solid fa-check w-6 h-6 rounded-full bg-[#F4EBFF] text-center leading-6 text-primary"
+                ></i>
+                <p
+                  class="font-dm font-medium text-lg md:max-lg:text-15 md:max-lg:ml-1 text-paragraph ml-5 group-hover:text-white duration-500"
+                >
+                  Timeline Review
+                </p>
+              </div>
+
+              <div class="flex items-center mb-6">
+                <i
+                  class="fa-solid fa-check w-6 h-6 rounded-full bg-[#F4EBFF] text-center leading-6 text-primary"
+                ></i>
+                <p
+                  class="font-dm font-medium text-lg md:max-lg:text-15 md:max-lg:ml-1 text-paragraph ml-5 group-hover:text-white duration-500"
+                >
+                  Custom fields
+                </p>
+              </div>
+
+              <div class="flex items-center mb-6">
+                <i
+                  class="fa-solid fa-check w-6 h-6 rounded-full bg-[#F4EBFF] text-center leading-6 text-primary"
+                ></i>
+                <p
+                  class="font-dm font-medium text-lg md:max-lg:text-15 md:max-lg:ml-1 text-paragraph ml-5 group-hover:text-white duration-500"
+                >
+                  Custom Templates
+                </p>
+              </div>
+
+              <div class="flex items-center mb-6">
+                <i
+                  class="fa-solid fa-check w-6 h-6 rounded-full bg-[#F4EBFF] text-center leading-6 text-primary"
+                ></i>
+                <p
+                  class="font-dm font-medium text-lg md:max-lg:text-15 md:max-lg:ml-1 text-paragraph ml-5 group-hover:text-white duration-500"
+                >
+                  Task dependencies
+                </p>
+              </div>
+
+              <div class="flex items-center mb-6">
+                <i
+                  class="fa-solid fa-check w-6 h-6 rounded-full bg-[#F4EBFF] text-center leading-6 text-primary"
+                ></i>
+                <p
+                  class="font-dm font-medium text-lg md:max-lg:text-15 md:max-lg:ml-1 text-paragraph ml-5 group-hover:text-white duration-500"
+                >
+                  Milestones Manage
+                </p>
+              </div>
+            </div>
+            <a
+              class="font-dm font-medium text-lg text-white bg-primary inline-block rounded-md py-5 px-10 lg:px-16 xl:px-105 group-hover:text-heading duration-500 group-hover:bg-secondary"
+              href="#"
+              >Purchase Now</a
+            >
+          </div>
+
+          <div
+            class="py-10 px-10 md:max-lg:py-8 md:px-5 lg:px-9 xl:px-14 rounded-20 border border-four shadow text-center group hover:bg-primary duration-500 md:w-32% max-w-md mx-auto md:mx-0"
+          >
+            <img
+              class="mx-auto"
+              src="images/pricing_logo3.png"
+              alt="pricing_logo3"
+            />
+            <h4
+              class="font-chivo font-bold text-2xl text-primary mt-8 mb-1 group-hover:text-secondary duration-500"
+            >
+              Enterprise
+            </h4>
+            <h3
+              class="font-chivo font-bold text-4xl lg:text-44 text-heading mb-4 group-hover:text-white duration-500"
+            >
+              $50/mth
+            </h3>
+            <p
+              class="font-dm font-medium text-lg md:max-lg:text-15 text-paragraph group-hover:text-white duration-500"
+            >
+              Annual pricing
+              <span class="text-primary group-hover:text-secondary duration-500"
+                >(save 40%)</span
+              >
+            </p>
+            <div class="my-10 w-64 mx-auto md:w-auto md:mx-0">
+              <div class="flex items-center mb-6">
+                <i
+                  class="fa-solid fa-check w-6 h-6 rounded-full bg-[#F4EBFF] text-center leading-6 text-primary"
+                ></i>
+                <p
+                  class="font-dm font-medium text-lg md:max-lg:text-15 md:max-lg:ml-1 text-paragraph ml-5 group-hover:text-white duration-500"
+                >
+                  Data export & deletion
+                </p>
+              </div>
+
+              <div class="flex items-center mb-6">
+                <i
+                  class="fa-solid fa-check w-6 h-6 rounded-full bg-[#F4EBFF] text-center leading-6 text-primary"
+                ></i>
+                <p
+                  class="font-dm font-medium text-lg md:max-lg:text-15 md:max-lg:ml-1 text-paragraph ml-5 group-hover:text-white duration-500"
+                >
+                  Block native integrations
+                </p>
+              </div>
+
+              <div class="flex items-center mb-6">
+                <i
+                  class="fa-solid fa-check w-6 h-6 rounded-full bg-[#F4EBFF] text-center leading-6 text-primary"
+                ></i>
+                <p
+                  class="font-dm font-medium text-lg md:max-lg:text-15 md:max-lg:ml-1 text-paragraph ml-5 group-hover:text-white duration-500"
+                >
+                  Custom branding
+                </p>
+              </div>
+
+              <div class="flex items-center mb-6">
+                <i
+                  class="fa-solid fa-check w-6 h-6 rounded-full bg-[#F4EBFF] text-center leading-6 text-primary"
+                ></i>
+                <p
+                  class="font-dm font-medium text-lg md:max-lg:text-15 md:max-lg:ml-1 text-paragraph ml-5 group-hover:text-white duration-500"
+                >
+                  Lock custom fields
+                </p>
+              </div>
+
+              <div class="flex items-center mb-6">
+                <i
+                  class="fa-solid fa-check w-6 h-6 rounded-full bg-[#F4EBFF] text-center leading-6 text-primary"
+                ></i>
+                <p
+                  class="font-dm font-medium text-lg md:max-lg:text-15 md:max-lg:ml-1 text-paragraph ml-5 group-hover:text-white duration-500"
+                >
+                  Priority support
+                </p>
+              </div>
+            </div>
+            <a
+              class="font-dm font-medium text-lg text-white bg-primary inline-block rounded-md py-5 px-10 lg:px-16 xl:px-105 group-hover:text-heading duration-500 group-hover:bg-secondary"
+              href="#"
+              >Purchase Now</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==========================
+             pricing end
+    =============================== -->
+  </body>
+</html>
